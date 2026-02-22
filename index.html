@@ -225,18 +225,12 @@
             transform: translateY(-5px);
             box-shadow: 0 20px 40px rgba(0,0,0,0.05);
         }
-        .series-card .image-placeholder {
-            width: 100%;
-            height: 220px;
-            background: linear-gradient(145deg, #d0e0f0, #b0c8e0);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #0a2a44;
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 1.2rem;
-        }
+        .series-card img {
+    width: 100% !important;
+    height: 220px !important;
+    object-fit: cover !important;
+    display: block;
+}
         .series-info {
             padding: 24px;
         }
@@ -657,7 +651,7 @@
             </div>
             <!-- БИО -->
             <div class="series-card">
-                <img src="/images/bio.jpg" alt="Евролос BIO" style="width:100%; height:220px; object-fit:cover;">
+                <img src="images/bio.jpg" alt="Евролос BIO" style="width:100%; height:220px; object-fit:cover;">
                 <div class="series-info">
                     <span class="series-badge">Биоочистка</span>
                     <span class="series-badge">Дача/дом</span>
@@ -669,7 +663,7 @@
             </div>
             <!-- ПРО -->
             <div class="series-card">
-                <img src="/images/pro.jpg" alt="Евролос ПРО" style="width:100%; height:220px; object-fit:cover;">
+                <img src="images/pro.jpg" alt="Евролос ПРО" style="width:100%; height:220px; object-fit:cover;">
                 <div class="series-info">
                     <span class="series-badge">Компрессорный</span>
                     <span class="series-badge">ПМЖ</span>
@@ -681,7 +675,7 @@
             </div>
             <!-- ГРУНТ -->
             <div class="series-card">
-                <img src="/images/grunt.jpg" alt="Евролос ГРУНТ" style="width:100%; height:220px; object-fit:cover;">
+                <img src="images/grunt.jpg" alt="Евролос ГРУНТ" style="width:100%; height:220px; object-fit:cover;">
                 <div class="series-info">
                     <span class="series-badge">Премиум</span>
                     <span class="series-badge">Высокий УГВ</span>
